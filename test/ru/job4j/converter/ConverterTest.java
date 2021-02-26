@@ -16,9 +16,9 @@ public class ConverterTest extends TestCase {
 
     @Test
     public void testRubleToDollar() {
-        int inDollar = 180;
-        int expectedDollar = 3;
-        int outDollar = Converter.rubleToDollar(inDollar);
-        Assert.assertEquals(expectedDollar, outDollar);
+        int in = 180;
+        int expected = 3;
+        int out = Converter.rubleToDollar(in);
+        Assert.assertEquals(expected, out);
     }
 }
