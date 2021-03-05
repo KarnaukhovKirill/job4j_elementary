@@ -18,4 +18,10 @@ public class FactorialTest {
         int expected = 1;
         assertThat(Factorial.calc(0), is(expected));
     }
+
+    @Test
+    public void whenN6ThenFactorialIs720() {
+        int expected = 720;
+        assertThat(Factorial.calc(6), is(expected));
+    }
 }
